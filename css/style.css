@@ -1,0 +1,117 @@
+#particles-js{    
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;    
+}
+.nav {    
+    position: fixed;
+    z-index: 99;
+    top: 0;    
+    width: 260px;
+    height: 100%;    
+}
+.logo-img{
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+}        
+ul li a {
+    color: black !important;
+    text-decoration: none !important;
+}
+ul li.navlogo{    
+    font-size: 3.5vh;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+ul li a.nav-link{
+    color: black;
+    padding-top: 20px;
+}
+div.allnotes{
+    padding-top: 90px;
+    padding-left: 280px;    
+    height: 100%;
+}
+table{
+    border: 1px solid black;
+}
+table tr th{
+    background-color: black;
+    color: white;    
+    text-align:center;    
+}
+table tr td{
+    text-align: center;    
+    border-bottom: 1px solid black;
+}
+table tr th.fecha{
+    width: 200px;
+}
+
+div.comentarios{
+    padding-left: 265px;
+    padding-top: 50px;
+}
+/*boton*/
+.cta {
+    padding-top: 50px;
+    padding-left: 350px;
+    border: none;
+    background: none;
+   }
+   
+   .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 10px;
+    padding-right: 15px;
+    text-transform: uppercase;
+   }
+   
+   .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active svg {
+    transform: scale(0.9);
+   }
+   
+   .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+   }
+   
+   .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+   }
+   
+   .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+   }
+
+tr td a{
+    color: black !important;
+    text-decoration: none !important;    
+}
